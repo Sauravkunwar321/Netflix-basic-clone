@@ -218,10 +218,16 @@ nav button {
   font-size: 48px;
 }
 
+.queries{
+  display: flex;
+  justify-content: space-between;
+}
+
 .faqbox {
   font-size: 24px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: space-between; */
   background-color: #2d2d2d;
   /* width: 100%; */
   padding: 24px;
